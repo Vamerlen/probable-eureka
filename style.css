@@ -22,7 +22,7 @@ body {
   top: 0;
   z-index: 1;
   width: 100%;
-  height: 60px;
+  height: auto;
   background-color: #0f9b8e;
 }
 
@@ -33,6 +33,7 @@ body {
   height: 100%;
   justify-content: flex-end;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .navbar ul li {
